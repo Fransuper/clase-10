@@ -1,22 +1,26 @@
-.div-centrado{
+.div-centrado {
     width: 500px;
     margin: auto;
 }
 
-h2{
+h2 {
     text-align: center;
     padding: 10px;
     margin: 10px;
 }
 
-.Productos{
+.Productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.bg-body-tertiary {
+    background-color: coral !important;
 }
